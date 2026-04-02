@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BuildRight Construction — Building Your Vision, One Foundation at a Time. Residential construction, renovation, project management, and structural engineering in São Paulo." />
+  <title>BuildRight Construction</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#hero" class="navbar__logo">
+        <span class="navbar__logo-icon"><i class="fas fa-hard-hat"></i></span>
+        <span class="navbar__logo-text">BuildRight<span class="accent"> Construction</span></span>
+      </a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__menu" id="navMenu" role="navigation">
+        <ul class="navbar__list">
+          <li><a href="#hero"     class="navbar__link">Home</a></li>
+          <li><a href="#services" class="navbar__link">Services</a></li>
+          <li><a href="#projects" class="navbar__link">Projects</a></li>
+          <li><a href="#team"     class="navbar__link">Team</a></li>
+          <li><a href="#contact"  class="navbar__link navbar__link--cta">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== SECTION 1: HERO ===== -->
+    <section id="hero" class="hero">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="hero__eyebrow"><i class="fas fa-hard-hat"></i> Est. 2010 · São Paulo, Brazil</p>
+        <h1 class="hero__title">BuildRight<br /><span class="accent">Construction</span></h1>
+        <p class="hero__tagline">Building Your Vision,<br />One Foundation at a Time</p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View Our Projects</a>
+          <a href="#contact"  class="btn btn--outline">Get a Quote</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-number">14+</span>
+            <span class="hero__stat-label">Years Experience</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">120+</span>
+            <span class="hero__stat-label">Projects Completed</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">98%</span>
+            <span class="hero__stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
+      <a href="#services" class="hero__scroll-cue" aria-label="Scroll to services">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ===== SECTION 2: SERVICES ===== -->
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">What We Do</span>
+          <h2 class="section__title">Our Services</h2>
+          <p class="section__subtitle">From groundbreaking to final finish, we deliver excellence at every stage of construction.</p>
+        </div>
+        <div class="services__grid">
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h3 class="service-card__title">Residential Construction</h3>
+            <p class="service-card__desc">Custom homes and residential complexes built to the highest standards. We manage every detail from foundation to rooftop, ensuring quality craftsmanship throughout.</p>
+            <ul class="service-card__features">
+              <li><i class="fas fa-check"></i> Custom home design & build</li>
+              <li><i class="fas fa-check"></i> Multi-unit residential complexes</li>
+              <li><i class="fas fa-check"></i> Energy-efficient construction</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3 class="service-card__title">Renovation &amp; Remodeling</h3>
+            <p class="service-card__desc">Transform your existing space with our expert renovation services. We breathe new life into homes and commercial properties with minimal disruption.</p>
+            <ul class="service-card__features">
+              <li><i class="fas fa-check"></i> Full interior renovations</li>
+              <li><i class="fas fa-check"></i> Kitchen &amp; bathroom remodels</li>
+              <li><i class="fas fa-check"></i> Historic building restoration</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-clipboard-list"></i>
+            </div>
+            <h3 class="service-card__title">Project Management</h3>
+            <p class="service-card__desc">End-to-end project oversight ensuring on-time, on-budget delivery. Our certified managers coordinate all trades and stakeholders seamlessly.</p>
+            <ul class="service-card__features">
+              <li><i class="fas fa-check"></i> Schedule &amp; budget control</li>
+              <li><i class="fas fa-check"></i> Contractor coordination</li>
+              <li><i class="fas fa-check"></i> Risk management &amp; reporting</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-drafting-compass"></i>
+            </div>
+            <h3 class="service-card__title">Structural Engineering</h3>
+            <p class="service-card__desc">Rigorous structural analysis and engineering solutions that ensure safety, compliance, and longevity for every structure we design and build.</p>
+            <ul class="service-card__features">
+              <li><i class="fas fa-check"></i> Structural analysis &amp; design</li>
+              <li><i class="fas fa-check"></i> Foundation engineering</li>
+              <li><i class="fas fa-check"></i> Seismic &amp; load assessments</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 3: PROJECTS / PORTFOLIO ===== -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Our Work</span>
+          <h2 class="section__title">Featured Project</h2>
+          <p class="section__subtitle">Delivering modern living spaces that combine functionality, aesthetics, and sustainability.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__image-wrap">
+            <div class="project-card__image-placeholder" role="img" aria-label="Oakwood Residences — modern 12-unit residential complex">
+              <div class="project-card__image-inner">
+                <i class="fas fa-building"></i>
+                <span>Oakwood Residences</span>
+              </div>
+            </div>
+            <div class="project-card__badge">Featured Project</div>
+          </div>
+
+          <div class="project-card__body">
+            <div class="project-card__meta">
+              <span class="project-card__tag"><i class="fas fa-tag"></i> Residential</span>
+              <span class="project-card__tag"><i class="fas fa-map-marker-alt"></i> São Paulo, SP</span>
+              <span class="project-card__tag"><i class="fas fa-calendar-check"></i> 2024</span>
+            </div>
+            <h3 class="project-card__title">Oakwood Residences</h3>
+            <p class="project-card__desc">
+              Oakwood Residences is BuildRight Construction's flagship residential development — a modern 12-unit complex designed to redefine urban living in São Paulo. Each unit features open-plan layouts, premium finishes, and smart-home integration, set within a landscaped community environment.
+            </p>
+            <p class="project-card__desc">
+              The project prioritizes sustainability with solar panels, rainwater harvesting, and energy-efficient insulation, achieving a Green Building certification. Completed on schedule in 2024, Oakwood Residences stands as a testament to our commitment to quality and innovation.
+            </p>
+
+            <div class="project-card__stats">
+              <div class="project-stat">
+                <span class="project-stat__number">12</span>
+                <span class="project-stat__label">Residential Units</span>
+              </div>
+              <div class="project-stat">
+                <span class="project-stat__number">2024</span>
+                <span class="project-stat__label">Year Completed</span>
+              </div>
+              <div class="project-stat">
+                <span class="project-stat__number">São Paulo</span>
+                <span class="project-stat__label">Location</span>
+              </div>
+              <div class="project-stat">
+                <span class="project-stat__number">4,800m²</span>
+                <span class="project-stat__label">Total Area</span>
+              </div>
+            </div>
+
+            <div class="project-card__highlights">
+              <h4>Project Highlights</h4>
+              <ul>
+                <li><i class="fas fa-leaf"></i> Green Building certified — solar &amp; rainwater systems</li>
+                <li><i class="fas fa-wifi"></i> Smart-home integration in all 12 units</li>
+                <li><i class="fas fa-shield-alt"></i> Seismic-resistant structural design</li>
+                <li><i class="fas fa-clock"></i> Delivered on time and within budget</li>
+              </ul>
+            </div>
+
+            <a href="#contact" class="btn btn--primary">Discuss Your Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 4: TEAM ===== -->
+    <section id="team" class="section team">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">The People Behind the Build</span>
+          <h2 class="section__title">Meet Our Team</h2>
+          <p class="section__subtitle">Experienced professionals dedicated to delivering exceptional results on every project.</p>
+        </div>
+        <div class="team__grid">
+
+          <article class="team-card">
+            <div class="team-card__avatar" aria-label="Carlos Alves">
+              <span class="team-card__initials">CA</span>
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Carlos Alves</h3>
+              <p class="team-card__role">CEO &amp; Founder</p>
+              <p class="team-card__bio">With over 20 years in the construction industry, Carlos founded BuildRight Construction with a vision to combine technical excellence with client-centered service. He holds a Civil Engineering degree from USP and an MBA in Construction Management. Under his leadership, BuildRight has grown from a small contractor to one of São Paulo's most trusted residential builders.</p>
+              <div class="team-card__social">
+                <a href="#" aria-label="Carlos Alves on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Carlos Alves email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-card__avatar team-card__avatar--accent" aria-label="Maria Santos">
+              <span class="team-card__initials">MS</span>
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Maria Santos</h3>
+              <p class="team-card__role">Lead Architect</p>
+              <p class="team-card__bio">Maria brings a decade of architectural expertise to every BuildRight project. A graduate of FAU-USP, she specializes in sustainable residential design and has led the architectural vision for Oakwood Residences. Her designs balance aesthetic innovation with practical functionality, earning recognition from the São Paulo Architecture Association.</p>
+              <div class="team-card__social">
+                <a href="#" aria-label="Maria Santos on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Maria Santos email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-card__avatar team-card__avatar--dark" aria-label="João Ferreira">
+              <span class="team-card__initials">JF</span>
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">João Ferreira</h3>
+              <p class="team-card__role">Site Manager</p>
+              <p class="team-card__bio">João is the operational backbone of every BuildRight site. With 15 years of hands-on construction experience, he ensures that safety protocols, quality standards, and project timelines are met without compromise. His meticulous approach to site coordination has resulted in zero safety incidents across all projects managed in the past five years.</p>
+              <div class="team-card__social">
+                <a href="#" aria-label="João Ferreira on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="João Ferreira email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 5: CONTACT ===== -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Get In Touch</span>
+          <h2 class="section__title">Contact Us</h2>
+          <p class="section__subtitle">Ready to start your project? Reach out and our team will respond within 24 hours.</p>
+        </div>
+
+        <div class="contact__layout">
+
+          <div class="contact__info">
+            <h3 class="contact__info-title">Our Details</h3>
+
+            <div class="contact__info-item">
+              <div class="contact__info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong>Address</strong>
+                <p>Av. Paulista, 1000 — 5º Andar<br />Bela Vista, São Paulo — SP<br />CEP 01310-100, Brazil</p>
+              </div>
+            </div>
+
+            <div class="contact__info-item">
+              <div class="contact__info-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <p><a href="tel:+551130001234">+55 (11) 3000-1234</a></p>
+                <p class="contact__info-note">Mon–Fri, 8am–6pm (BRT)</p>
+              </div>
+            </div>
+
+            <div class="contact__info-item">
+              <div class="contact__info-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <p><a href="mailto:contact@buildright.com.br">contact@buildright.com.br</a></p>
+                <p class="contact__info-note">We reply within 24 hours</p>
+              </div>
+            </div>
+
+            <div class="contact__info-item">
+              <div class="contact__info-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <strong>Business Hours</strong>
+                <p>Monday – Friday: 8:00am – 6:00pm<br />Saturday: 9:00am – 1:00pm<br />Sunday: Closed</p>
+              </div>
+            </div>
+
+            <div class="contact__social">
+              <a href="#" aria-label="BuildRight on LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="BuildRight on Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="BuildRight on Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+
+          <div class="contact__form-wrap">
+            <h3 class="contact__form-title">Send Us a Message</h3>
+            <form class="contact__form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Ana Oliveira" required autocomplete="name" />
+                <span class="form-error" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. ana@example.com" required autocomplete="email" />
+                <span class="form-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="e.g. +55 (11) 99999-0000" autocomplete="tel" />
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <select id="subject" name="subject" class="form-input form-select">
+                  <option value="">Select a topic…</option>
+                  <option value="residential">Residential Construction</option>
+                  <option value="renovation">Renovation &amp; Remodeling</option>
+                  <option value="management">Project Management</option>
+                  <option value="engineering">Structural Engineering</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="Tell us about your project…" required></textarea>
+                <span class="form-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+
+              <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+                <i class="fas fa-check-circle"></i>
+                <strong>Message sent!</strong> We'll get back to you within 24 hours.
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="navbar__logo-icon"><i class="fas fa-hard-hat"></i></span>
+        <span class="footer__brand-name">BuildRight<span class="accent"> Construction</span></span>
+      </div>
+      <p class="footer__copy">&copy; 2024 BuildRight Construction. All rights reserved.</p>
+      <p class="footer__tagline">Building Your Vision, One Foundation at a Time</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

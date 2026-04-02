@@ -1,0 +1,18 @@
+{
+  "profiles": [
+    {
+      "name": "apd-core",
+      "files": [
+        "rules/global_rules.md",
+        "rules/xml_rules.md"
+      ]
+    },
+    {
+      "name": "operational",
+      "files": [
+        "rules/operational_rules.md"
+      ]
+    }
+  ],
+  "agents": []
+}
