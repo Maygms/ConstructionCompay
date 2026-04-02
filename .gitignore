@@ -17,3 +17,10 @@ npm-debug.log*
 # APD Framework runtime artifacts
 agent_framework/inbox/unread/
 agent_framework/inbox/draft/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
